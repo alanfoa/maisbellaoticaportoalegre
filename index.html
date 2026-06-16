@@ -163,21 +163,39 @@
       height: 56px;
     }
 
-    .slogan {
+    .title {
       font-family: var(--font-serif);
-      font-size: 20px;
-      font-weight: 600;
+      font-size: 28px;
+      font-weight: 700;
       color: var(--red);
-      line-height: 1.35;
-      margin: 0 0 24px;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+      margin-bottom: 6px;
+      animation: fadeInUp 0.5s ease 0.12s both;
+    }
+
+    .ig-handle {
+      font-size: 14px;
+      font-weight: 400;
+      color: #888;
+      margin-bottom: 4px;
       animation: fadeInUp 0.5s ease 0.15s both;
+    }
+
+    .lema {
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--text-secondary);
+      line-height: 1.4;
+      margin-bottom: 24px;
+      animation: fadeInUp 0.5s ease 0.18s both;
     }
 
     /* ─── Elfsight Google Reviews ─── */
 
     .reviews-elfsight {
-      height: 280px;
-      margin: 0 0 14px;
+      height: 340px;
+      margin: 0 0 60px;
       animation: fadeInUp 0.5s ease 0.3s both;
     }
 
@@ -325,6 +343,8 @@
       display: flex;
       flex-direction: column;
       gap: 14px;
+      position: relative;
+      z-index: 2;
     }
 
     .btn {
@@ -521,9 +541,14 @@
         width: 80px;
         height: 80px;
       }
-      .slogan {
-        font-size: 17px;
-        margin: 0 0 18px;
+      .title {
+        font-size: 22px;
+      }
+      .ig-handle {
+        font-size: 12px;
+      }
+      .lema {
+        font-size: 13px;
       }
       .btn {
         padding: 14px 14px;
@@ -558,6 +583,15 @@
         padding: 28px 20px 24px;
         border-radius: 16px;
       }
+      .title {
+        font-size: 24px;
+      }
+      .ig-handle {
+        font-size: 13px;
+      }
+      .lema {
+        font-size: 14px;
+      }
     }
 
     @media (min-width: 481px) and (max-width: 767px) {
@@ -572,6 +606,15 @@
       }
       .card {
         padding: 48px 36px 36px;
+      }
+      .title {
+        font-size: 32px;
+      }
+      .ig-handle {
+        font-size: 15px;
+      }
+      .lema {
+        font-size: 16px;
       }
     }
 
@@ -624,8 +667,14 @@
       </div>
     </div>
 
-    <!-- ─── Slogan ─── -->
-    <p class="slogan">Mais Bella Ótica: seu óculos com estilo e tecnologia em Porto Alegre.</p>
+    <!-- ─── Title ─── -->
+    <h1 class="title">Mais Bella Ótica</h1>
+
+    <!-- ─── Instagram handle ─── -->
+    <p class="ig-handle">@maisbellaoticaportoalegre</p>
+
+    <!-- ─── Lema ─── -->
+    <p class="lema">Seu óculos com estilo e tecnologia em Porto Alegre.</p>
 
     <!-- ─── WhatsApp ─── -->
     <nav class="buttons" aria-label="Links">
