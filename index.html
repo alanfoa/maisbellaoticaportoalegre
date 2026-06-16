@@ -73,6 +73,72 @@
       word-break: break-word;
     }
 
+    /* ─── Animations ─── */
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.85);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes scaleIn {
+      from {
+        transform: scaleX(0);
+        opacity: 0;
+      }
+      to {
+        transform: scaleX(1);
+        opacity: 0.15;
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-4px);
+      }
+    }
+
+    @keyframes borderPulse {
+      0%, 100% {
+        border-color: var(--red);
+      }
+      50% {
+        border-color: rgba(225, 52, 57, 0.4);
+      }
+    }
+
+    @keyframes iconBounce {
+      0%, 100% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(4px);
+      }
+    }
+
+    .card {
+      animation: fadeInUp 0.6s ease both;
+    }
+
     /* ─── Header ─── */
 
     .avatar {
@@ -84,6 +150,13 @@
       border: 2px solid var(--red);
       background: #fff;
       position: relative;
+      animation: fadeInScale 0.5s ease 0.1s both, float 4s ease-in-out 1s infinite;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .avatar:hover {
+      transform: scale(1.06);
+      box-shadow: 0 0 0 4px rgba(225, 52, 57, 0.15);
     }
 
     .avatar img {
@@ -91,6 +164,11 @@
       height: 100%;
       object-fit: cover;
       display: block;
+      transition: transform 0.5s ease;
+    }
+
+    .avatar:hover img {
+      transform: scale(1.08);
     }
 
     .avatar-fallback {
@@ -113,6 +191,7 @@
       color: var(--red);
       letter-spacing: -0.5px;
       line-height: 1.2;
+      animation: fadeInUp 0.5s ease 0.15s both;
     }
 
     .username {
@@ -120,6 +199,7 @@
       font-weight: 500;
       color: var(--text-secondary);
       margin-top: 4px;
+      animation: fadeInUp 0.5s ease 0.2s both;
     }
 
     .slogan {
@@ -128,6 +208,7 @@
       color: var(--text-secondary);
       margin-top: 8px;
       line-height: 1.5;
+      animation: fadeInUp 0.5s ease 0.25s both;
     }
 
     /* ─── Divider ─── */
@@ -139,6 +220,8 @@
       border-radius: 2px;
       margin: 22px auto;
       opacity: 0.15;
+      animation: scaleIn 0.5s ease 0.35s both;
+      transform-origin: center;
     }
 
     /* ─── Buttons ─── */
@@ -165,16 +248,22 @@
       border: 2px solid transparent;
       position: relative;
       overflow: hidden;
+      animation: fadeInUp 0.5s ease both;
     }
 
+    .buttons .btn:nth-child(1) { animation-delay: 0.4s; }
+    .buttons .btn:nth-child(2) { animation-delay: 0.5s; }
+    .buttons .btn:nth-child(3) { animation-delay: 0.6s; }
+
     .btn:active {
-      transform: scale(0.97);
+      transform: scale(0.97) !important;
     }
 
     .btn svg {
       width: 22px;
       height: 22px;
       flex-shrink: 0;
+      transition: transform 0.3s ease;
     }
 
     .btn-content {
@@ -209,7 +298,7 @@
       background: var(--red);
       color: #fff;
       border-color: var(--red);
-      animation: pulse-glow 2.5s ease-in-out infinite;
+      animation: fadeInUp 0.5s ease 0.4s, pulse-glow 2.5s ease-in-out 1s infinite;
     }
 
     .btn-whatsapp:hover {
@@ -246,9 +335,18 @@
       box-shadow: 0 6px 20px rgba(225, 52, 57, 0.08);
     }
 
+    .btn-outline:hover svg {
+      transform: scale(1.15) rotate(-3deg);
+    }
+
     .btn-outline:active {
       transform: translateY(0) scale(0.97);
       background: rgba(225, 52, 57, 0.08);
+    }
+
+    /* Footer */
+    .footer {
+      animation: fadeInUp 0.5s ease 0.7s both;
     }
 
     /* ─── Footer ─── */
@@ -331,6 +429,14 @@
       }
       .card {
         padding: 48px 36px 36px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
       }
     }
 
