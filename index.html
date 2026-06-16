@@ -337,6 +337,47 @@
       background: var(--red-hover);
     }
 
+    /* ─── Lightbox ─── */
+
+    .lightbox {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: rgba(0,0,0,0.85);
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      cursor: pointer;
+    }
+    .lightbox.open {
+      display: flex;
+    }
+    .lightbox img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      cursor: default;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 36px;
+      cursor: pointer;
+      line-height: 1;
+      opacity: 0.8;
+      transition: opacity 0.2s;
+    }
+    .lightbox-close:hover {
+      opacity: 1;
+    }
+
     /* ─── Buttons ─── */
 
     .buttons {
@@ -793,6 +834,27 @@
 
   </main>
 
+  <!-- ─── Lightbox ─── -->
+  <div class="lightbox" id="lightbox" onclick="this.classList.remove('open')" role="dialog" aria-label="Imagem ampliada">
+    <button class="lightbox-close" onclick="document.getElementById('lightbox').classList.remove('open')" aria-label="Fechar">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+  </div>
+
   <script src="https://elfsightcdn.com/platform.js" async></script>
+  <script>
+  (function() {
+    var imgs = document.querySelectorAll('.carousel-slide img');
+    var lb = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lightbox-img');
+    for (var i = 0; i < imgs.length; i++) {
+      imgs[i].style.cursor = 'zoom-in';
+      imgs[i].addEventListener('click', function() {
+        lbImg.src = this.src;
+        lbImg.alt = this.alt;
+        lb.classList.add('open');
+      });
+    }
+  })();
+  </script>
 </body>
 </html>
