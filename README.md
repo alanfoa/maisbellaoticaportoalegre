@@ -1,91 +1,88 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Mais Bela Ótica" width="120" height="120" style="border-radius: 50%;">
+  <img src="assets/logo.jpg" alt="Mais Bela Ótica" width="120" height="120" style="border-radius: 50%; border: 2px solid #e13439;">
 </p>
 
 <h1 align="center">👓 Mais Bela Ótica</h1>
 
 <p align="center">
-  <strong>Sua melhor visão de estilo e conforto</strong>
+  <strong>Tu mejor visión de estilo y confort</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/alanfoa/maisbellaoticaportoalegre">
-    <img src="https://img.shields.io/badge/status-finalizado-brightgreen?style=flat-square" alt="Status">
-  </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/licença-MIT-blue?style=flat-square" alt="License">
-  </a>
+  <img src="https://img.shields.io/badge/estado-finalizado-brightgreen?style=flat-square" alt="Estado">
+  <img src="https://img.shields.io/badge/licencia-MIT-blue?style=flat-square" alt="Licencia">
   <img src="https://img.shields.io/badge/HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/performance-100%25-brightgreen?style=flat-square" alt="Performance">
-  <img src="https://img.shields.io/badge/mobile--first-✓-9cf?style=flat-square" alt="Mobile First">
+  <img src="https://img.shields.io/badge/mobile--first-%E2%9C%93-9cf?style=flat-square" alt="Mobile First">
 </p>
 
 ---
 
-## 📋 Sobre
+## 📋 Descripción
 
-Página web estilo **Linktree** para a ótica **Mais Bela Ótica**, desenvolvida como uma única página estática com foco máximo em **performance**, **design profissional** e **carregamento instantâneo**.
+Página web estilo **Linktree** para la óptica **Mais Bela Ótica**. Desarrollada como una sola página estática con enfoque en **velocidad**, **diseño profesional** y ** cero dependencias**.
 
-### ⚡ Performance
+### ⚡ Rendimiento
 
 | Métrica | Resultado |
 |---|---|
-| Requisições HTTP | **2** (HTML + Google Fonts) |
-| Tamanho total | **~15 KB** (gzipped) |
-| Carregamento 4G | **< 300ms** |
+| Solicitudes HTTP | **2** (HTML + Google Fonts) |
+| Tamaño total | **~15 KB** (gzipped) |
+| Carga en 4G | **< 300ms** |
 | Lighthouse | **98+** |
 
 ---
 
-## 🎨 Paleta de Cores
+## 🎨 Paleta de Colores
 
-| Cor | Hex | Uso |
+| Color | Hex | Uso |
 |---|---|---|
-| 🔴 Vermelho | `#e13439` | Marca, botões, detalhes |
-| ⚪ Branco | `#ffffff` | Card, fundo botões outline |
-| 🔘 Cinza claro | `#f9f9f9` | Fundo da página |
-| ⚫ Cinza texto | `#888888` | Subtítulo, slogan |
+| 🔴 Rojo | `#e13439` | Marca, botones, detalles |
+| ⚪ Blanco | `#ffffff` | Tarjeta, fondo botones |
+| 🔘 Gris claro | `#f9f9f9` | Fondo de página |
+| ⚫ Gris texto | `#888888` | Subtítulo, eslogan |
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Características
 
-- 📱 **100% Mobile-First** — adaptado para celular, tablet e desktop
-- 🖼️ **Avatar circular** com foto real e fallback SVG
-- 📞 **Botão WhatsApp** com API integrada e número direto
-- 📸 **Botão Instagram** com link direto
-- 📄 **Botão Catálogo** pronto para PDF
-- 🎞️ **Animações suaves** — entrada em cascata, float no avatar, hover nos botões
-- ♿ **Acessível** — `prefers-reduced-motion`, `aria-label`, HTML semântico
-- 🏷️ **Favicon circular** em PNG/ICO multi-tamanho
-- 🚀 **Zero dependências JS** — apenas HTML + CSS + Google Fonts
+- 📱 **100% Mobile-First** — adaptado a celular, tablet y desktop
+- 🖼️ **Avatar circular** con ícono SVG de anteojos
+- 📞 **Botón WhatsApp** con API integrada y número directo
+- 📸 **Botón Instagram** con enlace directo
+- 📄 **Botón Catálogo** listo para PDF
+- 🎞️ **Animaciones suaves** — entrada en cascada, flotación en avatar, hover en botones
+- ♿ **Accesible** — `prefers-reduced-motion`, `aria-label`, HTML semántico
+- 🏷️ **Favicon circular** en PNG/ICO multi-tamaño
+- 🚀 **Sin dependencias JS** — solo HTML + CSS + Google Fonts
 
 ---
 
-## 🗂️ Estrutura
+## 🗂️ Estructura del Proyecto
 
 ```
 maisbellaoticaportoalegre/
-├── index.html          ← Página principal
-├── plan.md             ← Documentação interna com checklists
-├── favicon.ico         ← Ícone do navegador (32+64px)
-├── favicon-32.png      ← Favicon 32×32
-├── favicon-64.png      ← Favicon 64×64
-├── favicon-192.png     ← Favicon 192×192 (Android/iOS)
+├── index.html              ← Página principal
+├── plan.md                 ← Documentación interna
+├── README.md               ← Este archivo
 └── assets/
-    └── logo.jpg        ← Logo da ótica (1108×1108)
+    ├── logo.jpg            ← Logo de la óptica
+    ├── favicon.ico         ← Ícono del navegador
+    ├── favicon-32.png      ← Favicon 32×32
+    ├── favicon-64.png      ← Favicon 64×64
+    └── favicon-192.png     ← Favicon 192×192
 ```
 
 ---
 
-## 🚀 Deploy
+## 🚀 Despliegue
 
 ### Netlify (recomendado)
 
-1. Acesse [app.netlify.com/drop](https://app.netlify.com/drop)
-2. Arraste a pasta do projeto
-3. Pronto — HTTPS automático, URL gerada instantaneamente
+1. Ve a [app.netlify.com/drop](https://app.netlify.com/drop)
+2. Arrastra toda la carpeta del proyecto
+3. Listo — HTTPS automático, URL generada al instante
 
 ### GitHub Pages
 
@@ -96,21 +93,27 @@ git push origin main
 
 ---
 
-## 🔧 Personalização
+## 🔧 Personalización
 
-Antes de publicar, edite no `index.html`:
+Antes de publicar, edita en `index.html`:
 
-| O que | Onde |
+| Qué | Dónde |
 |---|---|
 | 📞 **WhatsApp** | `href="https://wa.me/5551997529107?text=..."` |
 | 📸 **Instagram** | `href="https://instagram.com/maisbellaoticaportoalegre"` |
-| 📄 **Catálogo PDF** | `href="#"` → colocar link real |
-| 🖼️ **Avatar** | `src="assets/logo.jpg"` → trocar pela logo real |
-| 🏷️ **Favicon** | `favicon.ico` / `favicon-*.png` |
+| 📄 **Catálogo PDF** | `href="#"` → colocar enlace real |
+| 🖼️ **Avatar** | Reemplazar SVG en el `<div class="avatar">` |
+| 🏷️ **Favicon** | Reemplazar archivos en `assets/` |
 
 ---
 
-## 🧑‍💻 Desenvolvido para
+## 📝 Notas
+
+- El número de WhatsApp y el usuario de Instagram son placeholders. Cámbialos antes de publicar.
+- El botón de Catálogo apunta a `#`. Conéctalo a un PDF real cuando lo tengas.
+- Todo está en un solo `index.html`. No requiere servidor ni build.
+
+---
 
 <p align="center">
   <strong>Mais Bela Ótica</strong><br>
@@ -118,5 +121,5 @@ Antes de publicar, edite no `index.html`:
 </p>
 
 <p align="center">
-  <sub>© 2026 — Todos os direitos reservados</sub>
+  <sub>© 2026 — Todos los derechos reservados</sub>
 </p>

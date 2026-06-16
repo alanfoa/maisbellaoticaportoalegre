@@ -21,12 +21,16 @@ Página web minimalista estilo "Linktree" para a ótica **Mais Bela Ótica**, de
 ## Estrutura de Arquivos
 ```
 E:\Github\maisbellaoticaportoalegre\
+├── index.html
 ├── plan.md
-└── index.html
+├── README.md
+└── assets/
+    ├── logo.jpg
+    ├── favicon.ico
+    ├── favicon-32.png
+    ├── favicon-64.png
+    └── favicon-192.png
 ```
-
-- [x] `plan.md` — Documentação com checklists
-- [x] `index.html` — Página única com CSS embutido
 
 ## Paleta de Cores
 | Elemento | Cor | Hex |
