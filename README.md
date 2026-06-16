@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Mais Bela Ótica" width="120" height="120" style="border-radius: 50%; border: 2px solid #e13439;">
+  <img src="assets/logo.jpg" alt="Mais Bella Ótica" width="120" height="120" style="border-radius: 50%; border: 2px solid #e13439;">
 </p>
 
-<h1 align="center">👓 Mais Bela Ótica</h1>
+<h1 align="center">👓 Mais Bella Ótica</h1>
 
 <p align="center">
   <a href="https://maisbellaoticaportoalegre.netlify.app/" target="_blank">
@@ -17,7 +17,7 @@
 
 ## 📋 Descripción
 
-Página web estilo **Linktree** para la óptica **Mais Bela Ótica**. Desarrollada como una sola página estática con foco en **velocidad de carga**, **diseño profesional** y ** cero dependencias**.
+Página web estilo **Linktree** para la óptica **Mais Bella Ótica**. Desarrollada como una sola página estática con foco en **velocidad de carga**, **diseño profesional** y ** cero dependencias**.
 
 🔗 **Demo en vivo:** [maisbellaoticaportoalegre.netlify.app](https://maisbellaoticaportoalegre.netlify.app/)
 
@@ -86,7 +86,7 @@ git push origin main
 ---
 
 <p align="center">
-  <strong>Mais Bela Ótica</strong><br>
+  <strong>Mais Bella Ótica</strong><br>
   Porto Alegre, RS — Brasil
 </p>
 

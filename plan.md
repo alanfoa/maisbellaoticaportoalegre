@@ -1,7 +1,7 @@
-# Mais Bela Ótica — Linktree Page
+# Mais Bella Ótica — Linktree Page
 
 ## Visão Geral
-Página web minimalista estilo "Linktree" para a ótica **Mais Bela Ótica**, desenvolvida como página única estática com foco máximo em performance, design profissional mobile-first e zero dependências desnecessárias.
+Página web minimalista estilo "Linktree" para a ótica **Mais Bella Ótica**, desenvolvida como página única estática com foco máximo em performance, design profissional mobile-first e zero dependências desnecessárias.
 
 ## Tech Stack
 | Tecnologia | Versão | Motivo |
@@ -54,7 +54,7 @@ E:\Github\maisbellaoticaportoalegre\
 
 ### 2. Header
 - [x] **Avatar**: Foto real (WebP 300x300) com fallback SVG inline
-- [x] **Título**: "Mais Bela Ótica" — Playfair Display 28px, `#e13439`, bold
+- [x] **Título**: "Mais Bella Ótica" — Playfair Display 28px, `#e13439`, bold
 - [x] **Username**: "@maisbellaoticaportoalegre" — Inter 14px, `#888`
 - [x] **Slogan**: "Sua melhor visão de estilo e conforto"
 
@@ -81,7 +81,7 @@ E:\Github\maisbellaoticaportoalegre\
 - [ ] **PENDENTE**: Confirmar URL do Instagram
 
 ### 5. Footer
-- [x] Texto: `@maisbellaoticaportoalegre | Mais Bela Ótica © 2026`
+- [x] Texto: `@maisbellaoticaportoalegre | Mais Bella Ótica © 2026`
 - [x] Fonte 11px, cor `#aaa`, borda fina superior
 
 ## Responsividade
@@ -108,4 +108,4 @@ E:\Github\maisbellaoticaportoalegre\
 3. (Opcional) Trocar avatar SVG por logo real da ótica
 
 ## Licença
-© 2026 — Desenvolvido para Mais Bela Ótica
+© 2026 — Desenvolvido para Mais Bella Ótica
