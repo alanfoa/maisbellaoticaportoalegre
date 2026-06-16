@@ -46,11 +46,12 @@ Página web estilo **Linktree** para la óptica **Mais Bella Ótica**. Desarroll
 ## ✨ Características
 
 - 📱 **100% Mobile-First** — adaptado a celular, tablet y desktop
-- 🖼️ **Avatar circular** con icono SVG de anteojos
-- 📞 **Botón WhatsApp** con API integrada
+- 🖼️ **Avatar circular** con logo de la óptica
+- 🏪 **Carrusel de fotos** CSS-only (3 slides placeholder)
+- 📞 **Botón WhatsApp** verde con shine + pulse
 - 📸 **Botón Instagram** con enlace directo
-- 📄 **Botón Catálogo** listo para PDF
-- 🎞️ **Animaciones suaves** — entrada en cascada, flotación, hover
+- ⭐ **Botón Google Reviews** con estrellas
+- 🎞️ **Animaciones suaves** — entrada en cascada, flotación en avatar, hover en botones
 - ♿ **Accesible** — `prefers-reduced-motion`, `aria-label`, HTML semántico
 - 🏷️ **Favicon circular** en PNG/ICO multi-tamaño
 - 🚀 **Sin dependencias JavaScript**
@@ -61,14 +62,15 @@ Página web estilo **Linktree** para la óptica **Mais Bella Ótica**. Desarroll
 
 ```
 maisbellaoticaportoalegre/
-├── index.html          ← Página principal (único archivo)
-├── assets/
-│   ├── logo.jpg        ← Logo de la óptica
-│   ├── favicon.ico     ← Favicon 32+64px
-│   ├── favicon-32.png
-│   ├── favicon-64.png
-│   └── favicon-192.png ← Apple touch icon
-└── README.md
+├── index.html              ← Página principal (único archivo)
+├── plan.md                 ← Documentación interna
+├── README.md               ← Este archivo
+└── assets/
+    ├── logo.jpg            ← Logo de la óptica
+    ├── favicon.ico         ← Ícono del navegador
+    ├── favicon-32.png      ← Favicon 32×32
+    ├── favicon-64.png      ← Favicon 64×64
+    └── favicon-192.png     ← Favicon 192×192
 ```
 
 ---
@@ -82,6 +84,14 @@ git push origin main
 # Netlify: arrastrar carpeta a https://app.netlify.com/drop
 # Desplegado en: https://maisbellaoticaportoalegre.netlify.app/
 ```
+
+### 📬 Contacto
+
+| Canal | Enlace |
+|---|---|
+| 📞 WhatsApp | `https://wa.me/5551997529107` |
+| 📸 Instagram | `https://instagram.com/maisbellaoticaportoalegre` |
+| ⭐ Google | `https://www.google.com/maps?kgmid=/g/11ll891dh8` |
 
 ---
 

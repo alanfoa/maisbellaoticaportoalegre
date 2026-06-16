@@ -58,27 +58,31 @@ E:\Github\maisbellaoticaportoalegre\
 - [x] **Username**: "@maisbellaoticaportoalegre" — Inter 14px, `#888`
 - [x] **Slogan**: "Sua melhor visão de estilo e conforto"
 
-### 3. Botões
+### 3. Carrossel de Fotos
+- [x] CSS-only com radio buttons e transições suaves
+- [x] 3 slides com placeholders SVG (Fachada, Interior, Modelos)
+- [x] Dots de navegação com animação
+- [x] Aspect-ratio 16:9 para consistência
+- [ ] **PENDENTE**: Substituir SVGs placeholders pelas fotos reais da loja
+
+### 4. Botões
 | Botão | Fundo | Texto | Efeito |
 |---|---|---|---|
-| WhatsApp | `#e13439` | Branco | Pulse + shadow |
+| WhatsApp | `#25D366` | Branco | Pulse + shine + shadow |
 | Instagram | Branco (borda `#e13439`) | `#e13439` | Hover bg rosado |
-| Catálogo | Branco (borda `#e13439`) | `#e13439` | Hover bg rosado |
+| Google Reviews | Branco (borda `#e13439`) | `#e13439` | Hover bg rosado |
 
-- [x] **WhatsApp** — fundo vermelho sólido, animação `pulse-glow`, hover com sombra
+- [x] **WhatsApp** — fundo verde, animação `pulse-glow` + shine, hover com sombra
 - [x] **Instagram** — fundo branco, borda vermelha, hover com fundo rosado
-- [x] **Catálogo** — mesmo estilo do Instagram
+- [x] **Google Reviews** — mesmo estilo do Instagram
 - [x] Todos: `border-radius: 50px`, `transition: all 0.3s ease`
 - [x] Efeito `scale(1.02)` no hover e `scale(0.97)` no active
 
-### 4. Links
-- [x] **WhatsApp**: `https://wa.me/5511912345678?text=...` (API com mensagem pré-definida)
+### 5. Links
+- [x] **WhatsApp**: `https://wa.me/5551997529107?text=...` (API com mensagem pré-definida)
 - [x] **Instagram**: `https://instagram.com/maisbellaoticaportoalegre`
-- [x] **Catálogo**: `#` (placeholder para PDF real)
-- [x] Todos com `target="_blank"` e `rel="noopener noreferrer"`
-- [ ] **PENDENTE**: Substituir número do WhatsApp pelo real
-- [ ] **PENDENTE**: Substituir link do Catálogo pelo PDF verdadeiro
-- [ ] **PENDENTE**: Confirmar URL do Instagram
+- [x] **Google Reviews**: `https://www.google.com/maps?kgmid=/g/11ll891dh8`
+- [ ] **PENDENTE**: Confirmar link do Instagram
 
 ### 5. Footer
 - [x] Texto: `@maisbellaoticaportoalegre | Mais Bella Ótica © 2026`
